@@ -1,0 +1,7 @@
+echo "# DynamicGrid_Asp.netCore_React_Front" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/youngmehran/DynamicGrid_Asp.netCore_React_Front.git
+git push -u origin master

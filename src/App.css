@@ -1,0 +1,91 @@
+@font-face {
+  font-family: iransans;
+  src: url(./assets/fonts/IRAN\ Sans\ Regular.woff);
+}
+@font-face {
+  font-family: iransans-bold;
+  src: url(./assets/fonts/iransans_bold.ttf);
+}
+body{
+  /* font-family: iransans !important;
+  font-size: 2em; */
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+
+.SideNavComponent{
+  max-width: 220px;
+   
+    padding-top: 8px;
+    padding-left: 28px;
+}
+
+.mainArea{
+  width: 100%;
+}
+
+.home-icon{
+ font-size: 2em;
+}
+.app-header .app-header__content{
+  padding: 0 1rem !important;
+}
+.app-header-right a{
+  padding: 0;
+}
+table{
+  text-align: right;
+  margin: 55px;
+}
+.modal-header{
+  direction: ltr;
+  
+}
+.modal-title{
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.modal-header .close{
+  margin:0 !important;
+  padding: 0 !important;
+  padding-top: 5px !important;
+}
+
+form{
+  text-align: right;
+}
+
+.valid-feedback,.invalid-feedback{
+  text-align: left;
+}
+.form-control{
+  background-position: 5px !important;
+  padding-left: 5% !important;
+  padding-right:5px !important;
+}
+
+.sun-editor .se-btn:enabled:focus, .sun-editor .se-btn:enabled{
+  direction: ltr;
+}

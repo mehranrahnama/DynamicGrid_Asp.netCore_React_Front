@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0 0 0 0;
+  font-family: sans-serif;
+}
+
+.navbar {
+  margin-bottom: 30px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+
+.App {
+  height: 100vh;
+  width: 100vw;
+  background-color: #fff;
+}
+
+.App .Content {
+  padding-top: 100px;
+  text-align: center;
+}
+
